@@ -1,0 +1,13 @@
+{
+  "title": "DefectSkinMod Fix | 故障机器人娘化兼容补丁 (v0.113.x)",
+  "description": "[b]非官方兼容补丁 / Unofficial compatibility fix[/b]\n\n需要原模组：[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3748976166]DefectSkinMod 故障机器人娘化[/url]\n\n针对 v0.113.x 游戏更新后角色选择界面 SelectCharacter 方法签名变化的问题，在原模组初始化中断后恢复遗漏的补丁与资源预加载。\n\n这是独立兼容补丁，不包含原作者的模型、图片、动画或 DLL。原模组仍需保持订阅和启用。\n\n[b]状态：已在游戏 v0.113.1 本地测试，仍有已知限制。[/b] 原模组初始化时仍会报错；使用支持继续加载的模组管理器（如 Mod Launch Manager）时，请对原模组选择「忽略并继续」，以便本补丁随后加载。\n\n原模组作者：九九八十一。原模组注明的角色设计来源：どべぽぽん。本补丁与原作者及游戏开发者无官方关联。\n\n[b]English[/b]\nIndependent compatibility patch for the original DefectSkinMod, locally tested with game v0.113.1. It includes no original DLL or assets. The original mod still reports an initialization error; choose Ignore and Continue for the original mod in a loader that supports this, so the fix can load afterward. Original mod author: 九九八十一. Character design credited by the original mod to どべぽぽん. Unofficial and unaffiliated. Please include godot.log and game version in bug reports.",
+  "visibility": "private",
+  "changeNote": "v0.1.0: Initial experimental standalone compatibility patch; ID-only DefectSkinMod dependency supports the original version string 1.0.",
+  "dependencies": [
+    "3748976166"
+  ],
+  "contentDescriptors": [],
+  "tags": [
+    "Bug Fix"
+  ]
+}

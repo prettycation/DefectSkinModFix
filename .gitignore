@@ -1,0 +1,14 @@
+.vs/
+.vscode/
+.idea/
+**/bin/
+**/obj/
+BuildOutput/
+Dist/
+WorkshopWorkspace/content/
+*.pdb
+*.user
+*.suo
+*.log
+TestResults/
+local.mk

@@ -1,0 +1,16 @@
+{
+  "id": "DefectSkinModFix",
+  "name": "DefectSkinMod Fix | 故障机器人娘化兼容补丁",
+  "author": "DefectSkinModFix contributors",
+  "description": "Unofficial standalone compatibility fix for DefectSkinMod on STS2 v0.113.x. Requires original Workshop item 3748976166. Does not include original assets.",
+  "version": "0.1.0",
+  "min_game_version": "0.113.0",
+  "has_pck": false,
+  "has_dll": true,
+  "dependencies": [
+    {
+      "id": "DefectSkinMod"
+    }
+  ],
+  "affects_gameplay": false
+}
